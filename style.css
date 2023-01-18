@@ -1,0 +1,373 @@
+@media only screen and (min-width:900px) and (max-width:1600px){
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./shara\ desert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+}
+.navbar{
+    width:400px;
+    height:50px;
+    margin-left:700px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.navbar-menu a{
+    padding: 0px 20px;
+    display: inline-block;
+}
+.logo{
+    width:80px;
+    height:80px;
+    margin-top:30px;
+    margin-left:100px;
+}
+.menu{
+    width:30px;
+    height:30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-size:70px;
+}
+.main-container1{
+    display: flex;
+}
+.sahara{
+    width:550px;
+    height:500px;
+    margin-top: 50px;
+    margin-left: 100px;
+    color: white;
+}
+button{
+    border: 1px white solid;
+    width: 200px;
+    height:40px;
+    border-radius: 40px;
+}
+.container3{
+    display:grid;
+    grid-template-columns:auto auto;
+    grid-template-rows: auto auto;
+    gap:50px;
+    margin-left: 170px;
+}
+.grid{
+    width: 250px;
+    height:250px;
+    border:5px;
+    border-radius:20px;
+}
+.grid1{
+    background-image: url(./pic-1.png);
+    background-size: cover;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: white;
+    padding: 10px;
+}
+.grid1:hover{
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+.grid2{
+    background-image: url(./pic-2.png);
+    background-size: cover;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+    padding: 10px;
+}
+.grid2:hover{
+
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+.grid3{
+    background-image: url(./pic-3.png);
+    background-size: cover;
+    grid-row:2/3;
+    grid-column:1/2 ;
+    color: white;
+    padding: 10px;
+}
+.grid3:hover{
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+.grid4{
+    background-image:url(./pic-4.png);
+    background-size: cover;
+    grid-row:2/3;
+    grid-column:2/3 ;
+    color: white;
+    padding: 10px;
+}
+.grid4:hover{
+    transform: translateY(-20px);
+    cursor: pointer;
+} 
+}
+
+
+
+@media only screen and (min-width:250px) and (max-width:500px){
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./shara\ desert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.main-container{
+    display: flex;
+    flex-direction: column;
+}
+.container1{
+    display: flex;
+    justify-content: space-around;
+    width:100vw;
+}
+.logo{
+    width:50px;
+    height:50px;
+    margin-top:20px;
+    margin-left:10px;
+}
+.navbar{
+    width:15px;
+    height:25px;
+    margin-left:0px;
+    margin-top:15px;
+    display: flex;
+    flex-direction: column;
+}
+.menu{
+    width:30px;
+    height:30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-size:30px;
+}
+.sahara{
+    width:100VW;
+    height:auto;
+    margin-top: 0px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    color: white;
+}
+button{
+    border: 1px white solid;
+    width: 200px;
+    height:40px;
+    border-radius:40px;   
+}
+.main-container1{
+    display: flex;
+    flex-direction: column;
+}
+.container3{
+    display:flex;
+    flex-direction: column;
+    gap:30px;
+    margin:auto;
+}
+.grid{
+    width:200px;
+    height:200px;
+    border:5px;
+    border-radius:20px;
+    margin: auto;
+}
+.grid1{
+    background-image: url(./pic-1.png);
+    background-size: cover;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: white;
+    padding: 10px;
+}
+.grid1:hover{
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+.grid2{
+    background-image: url(./pic-2.png);
+    background-size: cover;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+    padding: 10px;
+}
+.grid2:hover{
+
+    transform: translateY(-20px);
+    cursor:pointer;
+}
+.grid3{
+    background-image: url(./pic-3.png);
+    background-size: cover;
+    grid-row:2/3;
+    grid-column:1/2 ;
+    color: white;
+    padding: 10px;
+}
+.grid3:hover{
+    transform: translateY(-20px);
+    cursor: pointer;
+}
+.grid4{
+    background-image:url(./pic-4.png);
+    background-size: cover;
+    grid-row:2/3;
+    grid-column:2/3 ;
+    color: white;
+    padding: 10px;
+}
+.grid4:hover{
+    transform: translateY(-20px);
+    cursor: pointer;
+} 
+}
+
+@media only screen and (min-width:600px) and (max-width:900px){
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./shara\ desert.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+}
+.container1{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+}
+.navbar{
+    width:500px;
+    height:50px;
+    margin-left:150px;
+    margin-top: 30px;
+    display: flex;
+}
+.navbar-menu a{
+    padding: 0px 20px;
+    display: inline-block;
+}
+.logo{
+    width:55px;
+    height:55px;
+    margin-top:30px;
+    margin-left:25px;
+}
+.menu{
+    width:30px;
+    height:30px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+.main-container1{
+    display: flex;
+    flex-direction: column;
+}
+h1{
+    font-size:40px;
+}
+p{
+    font-size: 14px;
+}
+.sahara{
+    width:100vw;
+    height: 150;
+    margin-top: 25px;
+    margin-left:15px;
+    color: white;
+}
+button{
+    border: 1px white solid;
+    width: 200px;
+    height:40px;
+    font-size:14px;
+    border-radius: 40px;
+    margin-bottom: 30px;
+}
+.main-container1{
+    display: flex;
+}
+.container3{
+    display:flex;
+    flex-direction: column;
+    gap: 30px;
+    margin:auto;
+}
+.grid{
+    width:450px;
+    height:300px;
+    border:5px;
+    border-radius:20px;
+}
+.grid1{
+    background-image: url(./pic-1.png);
+    background-size: cover;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    color: white;
+    padding: 5px;
+}
+.grid1:hover{
+    transform: translateY(-20px);
+}
+.grid2{
+    background-image: url(./pic-2.png);
+    background-size: cover;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    color: white;
+    padding: 10px;
+}
+.grid2:hover{
+        transform: translateY(-20px);
+}
+.grid3{
+    background-image: url(./pic-3.png);
+    background-size: cover;
+    grid-row:2/3;
+    grid-column:1/2 ;
+    color: white;
+    padding: 10px;
+}
+.grid3:hover{
+    transform: translateY(-20px);
+}
+.grid4{
+    background-image:url(./pic-4.png);
+    background-size: cover;
+    grid-row:2/3;
+    grid-column:2/3 ;
+    color: white;
+    padding: 10px;
+}
+.grid4:hover{
+    transform: translateY(-20px);
+} 
+}    
